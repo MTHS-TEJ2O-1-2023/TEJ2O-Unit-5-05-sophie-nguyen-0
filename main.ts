@@ -21,8 +21,6 @@ neopixelStrip.show()
 basic.showIcon(IconNames.Heart)
 
 input.onButtonPressed(Button.A, function () {
-  basic.clearScreen()
-  
   neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
   neopixelStrip.show()
   basic.pause(3000)
